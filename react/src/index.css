@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  color: wheat;
 }
 
 html,
@@ -12,6 +11,49 @@ body {
   width: 100%;
 }
 
-body {
-  background-color: #111;
+.parent{
+  padding: 20px;
+  display: flex;
+flex-wrap: wrap;
+}
+body{
+  /* background-color: #111; */
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px  ;
+}
+
+.card{
+  width: 300px;
+  border: 1px solid white;
+ padding: 20px;
+ text-align: center;
+ border-radius: 10px ;
+ background-color: #f6ff4e;
+}
+
+.card p{
+  margin: 20px 0;
+}
+
+.card img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+.card button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
 }
