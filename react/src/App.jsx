@@ -16,48 +16,16 @@
 // export default App
 
 
-import React from 'react'
-import {Bookmark} from 'lucide-react'
+import Card from './components/card' 
+import User from './components/User'
 
 const App = () => {
   return (
-    <div className='parent'>
-
-<div className="card">
-
-<div>
-    <div className="top">
-    <img src="https://techdocs.akamai.com/identity-cloud/img/social-login/identity-providers/amazon-logo.png" alt="" />
-    <button>save <Bookmark size={12}/> </button>
-
-  
-  </div>
-<div className="center">
-  <h1>Amazon <span>5 day ago</span></h1>
-  <h2>Senior UI/UX Designer</h2>
-<div className='tag'>
-  <h4>part time</h4>
-  <h4>senior level</h4>
-
-</div>
-
-</div>
-</div>
-<div className="bottom">
-  <div>
-      <h3>$120/hr</h3>
-      <p>karachi pakistan</p> 
-    </div>
-    <button className='btn'>Apply Now</button>
-
-</div>
-
-</div>
-
+    <div className="parent">
+      <User />
     </div>
   )
 }
 
 export default App
-
-// videp :2:00
+// videp :2:16

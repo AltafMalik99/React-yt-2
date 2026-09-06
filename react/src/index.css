@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 
@@ -17,6 +18,9 @@ body {
   width: 100%;
   background-color: #111;
   padding: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -69,7 +73,7 @@ color: #b1b1b1 ;
   font-weight: 500;
 }
 
-.center h3 span{
+.center h1 span{
   font-size: 10px;
   font-weight: 400;
   color: #8b8b8b;
@@ -88,12 +92,12 @@ color: #b1b1b1 ;
 }
 
 .center .tag h4 {
-  font-size: 14px;
+  font-size: 10px;
   background-color: #dadada;
   color: #111;
-  font-weight: 400;
+  font-weight: 500;
   padding: 4px 8px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 
