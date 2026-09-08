@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 html,
@@ -63,9 +64,6 @@ color: #b1b1b1 ;
 }
 
 
-.center{
-  /* background-color: red; */
-}
 
 
 .center h3{
@@ -98,8 +96,16 @@ color: #b1b1b1 ;
   font-weight: 500;
   padding: 4px 8px;
   border-radius: 3px;
+  cursor:pointer;
+  width: 100;
 }
 
+.line{
+  width: 300%;
+  height: 1px;
+  background-color:black;
+  margin: 10px 011;
+}
 
 
 .bottom{
@@ -108,6 +114,7 @@ color: #b1b1b1 ;
   justify-content: space-between;
   border-top:1.5 solid #d7d7d7;
   padding-top: 15px;
+
 }
 
 .btn{
@@ -117,6 +124,7 @@ color: #b1b1b1 ;
   border: none;
   border-radius: 5px;
   column-width: 600;
+  cursor:pointer;
 }
 
 .bottom h3{
@@ -126,4 +134,25 @@ color: #b1b1b1 ;
 .bottom p {
   font-size: 12px;
   color: #8b8b8b;
+}
+
+.btn2{
+  cursor:pointer;
+}
+
+.btn2 :hover{
+  background-color: black;
+  color: white;
+  border-radius: 5px ;
+  border: 2px solid red;
+}
+
+.img2{
+  cursor:pointer;
+
+}
+
+
+.underline{
+  
 }

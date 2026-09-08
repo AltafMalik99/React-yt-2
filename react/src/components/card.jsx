@@ -22,26 +22,34 @@
 
 
 import {Bookmark} from 'lucide-react'
+import { use } from 'react'
 
 
-const card = () => {
+const card = (props) => {
   return (
+
+    console.log(props.user),
+    
 
 <div className="card">
 
 <div>
     <div className="top">
-    <img src="https://techdocs.akamai.com/identity-cloud/img/social-login/identity-providers/amazon-logo.png" alt="" />
-    <button>save <Bookmark size={12}/> </button>
+    <img className='img2' src={props.img} alt="logo" />
 
+    <div className='btn2'>
+    <button className='btn2'>save<Bookmark size={12}/> </button>
+    </div>
   
   </div>
 <div className="center">
-  <h1>Amazon <span>5 day ago</span></h1>
-  <h2>Senior UI/UX Designer</h2>
+  <h1>{props.user} <span>{props.day}</span></h1>
+  <h2>{props.post}</h2>
 <div className='tag'>
+
   <h4>part time</h4>
   <h4>senior level</h4>
+
 
 </div>
 
@@ -49,8 +57,10 @@ const card = () => {
 </div>
 <div className="bottom">
   <div>
-      <h3>$120/hr</h3>
-      <p>karachi pakistan</p> 
+
+<div className='line'></div>
+      <h3>{props.salary}</h3>
+      <p>{props.location}</p> 
     </div>
     <button className='btn'>Apply Now</button>
 
